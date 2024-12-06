@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Selection</title>
+    <link rel="stylesheet" href="product 1 main css.css">
+</head>
+<body>
+
+<!-- Header with Back Button and Description Box -->
+<div class="header">
+    <button class="back-button" onclick="window.history.back()">Back</button>
+    <div class="description-box">
+        <p>Description of the section or page can be added here.</p>
+    </div>
+</div>
+
+<!-- 3D Image Display Container -->
+<div class="product-3d-container" id="product-3d-container">
+    <img src="tires picture/1.jpg" alt="3D View" class="product-3d" id="product-3d">
+</div>
+
+<div class="product-container">
+    <div class="product" id="product1" onclick="show3DImage('tires picture/1.jpg')">
+        <img src="tires picture/1.jpg" alt="Product 1">
+        <h3>Product 1 Name</h3>
+        <p>Description of product 1.</p>
+        <p>Price: $25.99</p>
+        <p>Date Available: January 10, 2024</p>
+        <div class="product-buttons">
+            <button class="buy-button">Buy</button>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="about-product">About This Product</button>
+        </div>
+    </div>
+	
+	 <div class="product" id="product1" onclick="show3DImage('tires picture/1.jpg')">
+        <img src="tires picture/1.jpg" alt="Product 1">
+        <h3>Product 1 Name</h3>
+        <p>Description of product 1.</p>
+        <p>Price: $25.99</p>
+        <p>Date Available: January 10, 2024</p>
+        <div class="product-buttons">
+            <button class="buy-button">Buy</button>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="about-product">About This Product</button>
+        </div>
+    </div>
+	
+	 <div class="product" id="product1" onclick="show3DImage('tires picture/1.jpg')">
+        <img src="tires picture/1.jpg" alt="Product 1">
+        <h3>Product 1 Name</h3>
+        <p>Description of product 1.</p>
+        <p>Price: $25.99</p>
+        <p>Date Available: January 10, 2024</p>
+        <div class="product-buttons">
+            <button class="buy-button">Buy</button>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="about-product">About This Product</button>
+        </div>
+    </div>
+	
+	 <div class="product" id="product1" onclick="show3DImage('tires picture/1.jpg')">
+        <img src="tires picture/1.jpg" alt="Product 1">
+        <h3>Product 1 Name</h3>
+        <p>Description of product 1.</p>
+        <p>Price: $25.99</p>
+        <p>Date Available: January 10, 2024</p>
+        <div class="product-buttons">
+            <button class="buy-button">Buy</button>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="about-product">About This Product</button>
+        </div>
+    </div>
+	
+	 <div class="product" id="product1" onclick="show3DImage('tires picture/1.jpg')">
+        <img src="tires picture/1.jpg" alt="Product 1">
+        <h3>Product 1 Name</h3>
+        <p>Description of product 1.</p>
+        <p>Price: $25.99</p>
+        <p>Date Available: January 10, 2024</p>
+        <div class="product-buttons">
+            <button class="buy-button">Buy</button>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="about-product">About This Product</button>
+        </div>
+    </div>
+
+    <!-- Repeat similar code for other products -->
+
+</div>
+
+<script>
+// Function to display 3D image when a product is clicked
+function show3DImage(imageSrc) {
+    document.getElementById('product-3d').src = imageSrc;
+    document.getElementById('product-3d-container').style.display = 'block'; // Show 3D image container
+}
+</script>
+
+</body>
+</html>
